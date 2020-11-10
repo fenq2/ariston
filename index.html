@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Главная страница</title><!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE = edge"><![endif]-->
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+    <style>@charset "UTF-8";@font-face{font-family:Montserrat-Regular;src:url(../../fonts/Montserrat/Montserrat-Regular.woff)}@font-face{font-family:Montserrat-Medium;src:url(../../fonts/Montserrat/Montserrat-Medium.woff)}@font-face{font-family:Montserrat-SemiBold;src:url(../../fonts/Montserrat/Montserrat-SemiBold.woff)}@font-face{font-family:Montserrat-Bold;src:url(../../fonts/Montserrat/Montserrat-Bold.woff)}html{font:16px Montserrat-Regular,sans-serif;height:100%}body{height:100%;scroll-behavior:smooth;text-rendering:optimizeSpeed;line-height:1.5}*,::after,::before{-webkit-box-sizing:border-box;box-sizing:border-box}ul[class]{list-style:none;padding:0}body,h1,h3,li,p,ul[class]{margin:0}img{max-width:100%;display:block}button,input{font:inherit}@media (prefers-reduced-motion:reduce){*{-webkit-animation-duration:0s!important;animation-duration:0s!important;-webkit-animation-iteration-count:1!important;animation-iteration-count:1!important;scroll-behavior:auto!important}}.wrapper{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.content{-webkit-box-flex:1;-webkit-flex:1 0 auto;-ms-flex:1 0 auto;flex:1 0 auto}.container{margin:0 auto;max-width:1470px;width:100%;padding:0 15px}.btn{background:#00a72f;display:block;text-decoration:none;color:#fff;border:0;outline:0;border-radius:30px;padding:11px 30px;font-size:15px}.section-title{font:400 30px Montserrat-Medium,sans-serif;position:relative;padding-bottom:6px}.section-title::after{background:#00a72f;position:absolute;content:"";width:94px;height:3px;bottom:0;left:0}.logo{display:block;text-decoration:none}.logo__title{font:34px Montserrat-Bold,sans-serif;color:#00a72f}.logo__title--color{color:#000}.main-nav{position:absolute;width:100%;left:50%;top:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.main-nav__list{display:-webkit-flex;display:-ms-flex;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}.main-nav__item:not(:last-child){margin-right:50px}.main-nav__link{display:block;text-decoration:none;color:#000;border-bottom:2px solid transparent}.main-nav__link--active{border-bottom:2px solid #00a72f}.contacts-prev--position{position:absolute;right:-146px;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.contacts-prev__icon{width:20px;height:20px;fill:#00a72f}.contacts-prev__item{display:-webkit-flex;display:-ms-flex;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.contacts-prev__item:not(:last-child){margin-bottom:6px}.contacts-prev__title{font-family:Montserrat-Medium,sans-serif;padding-left:15px;color:#000;text-decoration:none}.advantages-prev{display:-webkit-flex;display:-ms-flex;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;max-width:700px;padding-top:100px}.advantages-prev__item{max-width:190px}.advantages-prev__img{display:-webkit-flex;display:-ms-flex;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;width:100%;height:70px}.advantages-prev__title{font:16px/20px Montserrat-Medium,sans-serif;text-align:center;padding-top:5px}.offer-form{background:#fff;-webkit-box-shadow:3px 3px 7px 2px rgba(0,0,0,.08);box-shadow:3px 3px 7px 2px rgba(0,0,0,.08);border-radius:10px;max-width:393px;padding:25px 25px 20px 25px}.offer-form__title{font:20px/24px Montserrat-Medium,sans-serif;text-align:center;max-width:276px;margin:0 auto}.offer-form__title--color{color:#00a72f}.offer-form__inner{padding:25px 0 15px 0}.offer-form__field{width:100%;margin-bottom:11px;border-radius:30px;border:1px solid #4f4f4f;padding:12px 24px;outline:0}.offer-form__field::-webkit-input-placeholder{font-size:15px;color:#828282}.offer-form__field::-moz-placeholder{font-size:15px;color:#828282}.offer-form__field:-ms-input-placeholder{font-size:15px;color:#828282}.offer-form__field::-ms-input-placeholder{font-size:15px;color:#828282}.offer-form__send{margin:6px auto 0 auto}.offer-form__privacy{text-align:center;font-size:12px;line-height:15px;color:#828282;max-width:260px;margin:0 auto}.offer-form__policy{color:#00a72f;text-decoration:none}.header{position:relative;display:-webkit-flex;display:-ms-flex;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.hero{background-repeat:no-repeat;background-size:cover;background-position:center}.hero__wrap{background:rgba(255,255,255,.94);padding-top:70px}.hero__info{background:url(../../images/content/mans.png) no-repeat 81% bottom;display:-webkit-flex;display:-ms-flex;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-webkit-align-items:flex-end;-ms-flex-align:end;align-items:flex-end;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;padding:180px 0 100px 0}.hero__info-content{max-width:700px}.hero__title{font:50px/61px Montserrat-SemiBold,sans-serif;color:#00a72f;padding-bottom:25px}.hero__title--color{color:#000}.hero__desc{position:relative;padding-left:75px;color:#040404;font-size:20px}.hero__desc::before{background:#00a72f;position:absolute;content:"";width:47px;height:6px;left:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.services{padding:80px 0 40px 0}.services__wrap{display:-webkit-flex;display:-ms-flex;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;padding-top:70px}.services-item{background:#fff;display:-webkit-flex;display:-ms-flex;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;width:32.4%;padding:7px 10px 44px 10px;margin-bottom:60px;-webkit-box-shadow:0 16px 24px rgba(0,0,0,.06),0 2px 6px rgba(0,0,0,.04),0 0 1px rgba(0,0,0,.04);box-shadow:0 16px 24px rgba(0,0,0,.06),0 2px 6px rgba(0,0,0,.04),0 0 1px rgba(0,0,0,.04)}.services-item__img{position:relative;width:264px;height:264px;margin-bottom:18px}.services-item__circle{background:#f2f2f2;width:100%;height:100%;border-radius:50%}.services-item__pic{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}</style>
+    <link rel="stylesheet" href="css/styles.min.css" media="print" onload="this.media='all'">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <div class="hero" style="background-image: url('images/content/hero-bg.jpg');">
+          <div class="hero__wrap">
+            <div class="container">
+              <header class="header"><a class="logo" href="#"><span class="logo__title">А<span class="logo__title logo__title--color">ристон</span></span></a>
+                <nav class="main-nav">
+                  <ul class="main-nav__list">
+                    <li class="main-nav__item"><a class="main-nav__link main-nav__link--active" href="#">Главная</a></li>
+                    <li class="main-nav__item"><a class="main-nav__link" href="#">Услуги</a></li>
+                    <li class="main-nav__item"><a class="main-nav__link" href="#">Почему мы</a></li>
+                    <li class="main-nav__item"><a class="main-nav__link" href="#">Процесс работы</a></li>
+                    <li class="main-nav__item"><a class="main-nav__link" href="#">Отзывы</a></li>
+                    <li class="main-nav__item"><a class="main-nav__link" href="#">Контакты</a></li>
+                  </ul>
+                </nav>
+                <div class="contacts-prev contacts-prev--position">
+                  <div class="contacts-prev__item">
+                    <svg class="svg-icon icon-phone contacts-prev__icon">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#phone"></use>
+                    </svg><a class="contacts-prev__title contacts-prev__link" href="tel:83432000164">8 (343) 2000-164</a>
+                  </div>
+                  <div class="contacts-prev__item">
+                    <svg class="svg-icon icon-location contacts-prev__icon">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#location"></use>
+                    </svg><span class="contacts-prev__title">ул. Хохрякова, 74, Екатеринбург</span>
+                  </div>
+                  <div class="contacts-prev__item">
+                    <svg class="svg-icon icon-timetable contacts-prev__icon">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#timetable"></use>
+                    </svg><span class="contacts-prev__title">08.00-23.00 без выходных</span>
+                  </div>
+                </div>
+              </header>
+              <div class="hero__info">
+                <div class="hero__info-content">
+                  <h1 class="hero__title">Ремонт <span class="hero__title hero__title--color">бытовой техники на дому в независимости от сложности</span></h1>
+                  <p class="hero__desc">В Екатеринбурге и области до 80км</p>
+                  <div class="advantages-prev">
+                    <div class="advantages-prev__item">
+                      <div class="advantages-prev__img"><img class="advantages-prev__icon" src="images/content/money-bag.svg" alt=""></div>
+                      <p class="advantages-prev__title">Ремонт любой сложности от 500р.</p>
+                    </div>
+                    <div class="advantages-prev__item">
+                      <div class="advantages-prev__img"><img class="advantages-prev__icon" src="images/content/worker.svg" alt=""></div>
+                      <p class="advantages-prev__title">Квалифицированные мастера</p>
+                    </div>
+                    <div class="advantages-prev__item">
+                      <div class="advantages-prev__img"><img class="advantages-prev__icon" src="images/content/settings.svg" alt=""></div>
+                      <p class="advantages-prev__title">Только оригинальные запчасти</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="offer-form">
+                  <p class="offer-form__title">Оставьте заявку cейчас и получите скидку <span class="offer-form__title offer-form__title--color">20%</span> на ремонт техники</p>
+                  <form class="offer-form__inner" action="" method="post">
+                    <input class="offer-form__field" type="text" placeholder="Введите имя">
+                    <input class="offer-form__field" type="tel" placeholder="Введите телефон">
+                    <button class="btn offer-form__send" type="submit">Вызвать мастера</button>
+                  </form>
+                  <p class="offer-form__privacy">Нажимая на кнопку, вы даёте согласие на обработку <a href="#" class="offer-form__policy">персональных данных</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="services">
+          <div class="container">
+            <h3 class="section-title">Услуги</h3>
+            <div class="services__wrap">
+              <div class="services-item">
+                <div class="services-item__img">
+                  <div class="services-item__circle"></div><img class="services-item__pic" src="images/content/services-img1.png" alt="">
+                </div>
+                <h5 class="services-item__title">Холодильники</h5><a class="btn services-item__more" href="#">Подробнее</a>
+              </div>
+              <div class="services-item">
+                <div class="services-item__img">
+                  <div class="services-item__circle"></div><img class="services-item__pic" src="images/content/services-img2.png" alt="">
+                </div>
+                <h5 class="services-item__title">Стиральные машины</h5><a class="btn services-item__more" href="#">Подробнее</a>
+              </div>
+              <div class="services-item">
+                <div class="services-item__img">
+                  <div class="services-item__circle"></div><img class="services-item__pic" src="images/content/services-img3.png" alt="">
+                </div>
+                <h5 class="services-item__title">Водонагреватели</h5><a class="btn services-item__more" href="#">Подробнее</a>
+              </div>
+              <div class="services-item">
+                <div class="services-item__img">
+                  <div class="services-item__circle"></div><img class="services-item__pic" src="images/content/services-img4.png" alt="">
+                </div>
+                <h5 class="services-item__title">Электрические плиты</h5><a class="btn services-item__more" href="#">Подробнее</a>
+              </div>
+              <div class="services-item">
+                <div class="services-item__img">
+                  <div class="services-item__circle"></div><img class="services-item__pic" src="images/content/services-img5.png" alt="">
+                </div>
+                <h5 class="services-item__title">Электрические духовые шкафы</h5><a class="btn services-item__more" href="#">Подробнее</a>
+              </div>
+              <div class="services-item">
+                <div class="services-item__img">
+                  <div class="services-item__circle"></div><img class="services-item__pic" src="images/content/services-img6.png" alt="">
+                </div>
+                <h5 class="services-item__title">Варочные панели</h5><a class="btn services-item__more" href="#">Подробнее</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="infoblock" style="background-image: url('images/content/infoblock-bg.png');">
+          <div class="container">
+            <h3 class="section-title">Почему мы</h3>
+            <div class="advantages">
+              <div class="advantages-item">
+                <div class="advantages-item__img"><img class="advantages-item__pic" src="images/content/lock.svg" alt=""></div>
+                <p class="advantages-item__title">Выезд мастера от 30 минут</p>
+              </div>
+              <div class="advantages-item">
+                <div class="advantages-item__img"><img class="advantages-item__pic" src="images/content/verify.svg" alt=""></div>
+                <p class="advantages-item__title">Гарантия до 3х лет</p>
+              </div>
+              <div class="advantages-item">
+                <div class="advantages-item__img"><img class="advantages-item__pic" src="images/content/list.svg" alt=""></div>
+                <p class="advantages-item__title">Опыт работы более 5 лет</p>
+              </div>
+              <div class="advantages-item">
+                <div class="advantages-item__img"><img class="advantages-item__pic" src="images/content/bosh.svg" alt=""></div>
+                <p class="advantages-item__title">Обслуживаем все бренды</p>
+              </div>
+            </div>
+            <p class="infoblock__title">за 5 лет наши мастера отремонтировали:</p>
+            <div class="stats-prev">
+              <div class="stats-prev__item"><span class="stats-prev__num">13.000</span><span class="stats-prev__desc">холодильников</span></div>
+              <div class="stats-prev__item"><span class="stats-prev__num">11.500</span><span class="stats-prev__desc">стиральных машин</span></div>
+              <div class="stats-prev__item"><span class="stats-prev__num">8.000</span><span class="stats-prev__desc">водонагревателей</span></div>
+              <div class="stats-prev__item"><span class="stats-prev__num">4.500</span><span class="stats-prev__desc">электроплит</span></div>
+            </div>
+            <p class="infoblock__title">мы работаем с брендами:</p>
+            <div class="brands">
+              <div class="brands-item"><img class="brands-item__img" src="images/content/brands-img1.png" alt=""></div>
+              <div class="brands-item"><img class="brands-item__img" src="images/content/brands-img2.png" alt=""></div>
+              <div class="brands-item"><img class="brands-item__img" src="images/content/brands-img3.png" alt=""></div>
+              <div class="brands-item"><img class="brands-item__img" src="images/content/brands-img4.png" alt=""></div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline">
+          <div class="container">
+            <h3 class="section-title">Процесс работы</h3>
+            <div class="timeline-bar">
+              <div class="timeline-bar__side">
+                <div class="timeline-bar__item timeline-bar__block">
+                  <p class="timeline-bar__desc">Вы оставляете <span href="#" class="timeline-bar__desc timeline-bar__desc--color">заявку</span> на нашем сайте</p>
+                </div>
+                <p class="timeline-bar__step timeline-bar__step--right">Шаг 2</p>
+                <div class="timeline-bar__item timeline-bar__block">
+                  <p class="timeline-bar__desc">Мастер находит <span href="#" class="timeline-bar__desc timeline-bar__desc--color">неисправность</span> в вашей технике и озвучивает стоимость ремонта</p>
+                </div>
+                <p class="timeline-bar__step timeline-bar__step--right">Шаг 4</p>
+              </div>
+              <div class="timeline-bar__progress">
+                <div class="timeline-bar__line">
+                  <div class="timeline-bar__fill"></div>
+                </div>
+                <div class="timeline-bar__dot" data-dot="1">
+                  <svg class="svg-icon icon-check timeline-bar__icon">
+                    <use xlink:href="images/svg/sprite/symbol/sprite.svg#check"></use>
+                  </svg>
+                </div>
+                <div class="timeline-bar__dot" data-dot="2">
+                  <svg class="svg-icon icon-check timeline-bar__icon">
+                    <use xlink:href="images/svg/sprite/symbol/sprite.svg#check"></use>
+                  </svg>
+                </div>
+                <div class="timeline-bar__dot" data-dot="3">
+                  <svg class="svg-icon icon-check timeline-bar__icon">
+                    <use xlink:href="images/svg/sprite/symbol/sprite.svg#check"></use>
+                  </svg>
+                </div>
+                <div class="timeline-bar__dot" data-dot="4">
+                  <svg class="svg-icon icon-check timeline-bar__icon">
+                    <use xlink:href="images/svg/sprite/symbol/sprite.svg#check"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="timeline-bar__side">
+                <p class="timeline-bar__step timeline-bar__step--left">Шаг 1</p>
+                <div class="timeline-bar__item timeline-bar__block">
+                  <p class="timeline-bar__desc">К вам выезжает мастер на <span href="#" class="timeline-bar__desc timeline-bar__desc--color">бесплатную</span> диагностику</p>
+                </div>
+                <p class="timeline-bar__step timeline-bar__step--left">Шаг 3</p>
+                <div class="timeline-bar__item timeline-bar__block">
+                  <p class="timeline-bar__desc">Готово! Ваша техника работает как <span href="#" class="timeline-bar__desc timeline-bar__desc--color">новая</span>!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="reviews">
+          <div class="container">
+            <h3 class="section-title">Отзывы</h3>
+            <div class="reviews__wrap">
+              <div class="reviews-item">
+                <div class="reviews-item__header">
+                  <div class="reviews-item__img" style="background-image: url('images/content/reviews-author1.jpg');"></div>
+                  <p class="reviews-item__name">Алексей П.</p>
+                </div>
+                <p class="reviews-item__desc">Здравствуйте! Сломалась стиральная машина "Аристон", позвонил в данную фирму. Мастер Антон Удинов приехал вовремя, быстро разобрался с проблемой, проведя диагностику. В течение 20 минут исправил проблему. Очень доволен результатом. Очень компетентный специалист. Советую.</p>
+                <div class="reviews-item__footer">
+                  <div class="stars">
+                    <div class="stars__item">
+                      <svg class="svg-icon icon-star stars__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#star"></use>
+                      </svg>
+                    </div>
+                    <div class="stars__item">
+                      <svg class="svg-icon icon-star stars__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#star"></use>
+                      </svg>
+                    </div>
+                    <div class="stars__item">
+                      <svg class="svg-icon icon-star stars__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#star"></use>
+                      </svg>
+                    </div>
+                    <div class="stars__item">
+                      <svg class="svg-icon icon-star stars__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#star"></use>
+                      </svg>
+                    </div>
+                    <div class="stars__item">
+                      <svg class="svg-icon icon-star stars__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#star"></use>
+                      </svg>
+                    </div>
+                  </div><span class="reviews-item__date">28.09.2020</span>
+                </div>
+              </div>
+              <div class="reviews-item">
+                <div class="reviews-item__header">
+                  <div class="reviews-item__img" style="background-image: url('images/content/reviews-author2.jpg');"></div>
+                  <p class="reviews-item__name">Феня В.</p>
+                </div>
+                <p class="reviews-item__desc">Большое спасибо мастеру Антону. Сломалась стиральная машинка, заказала мастера, приехал через 40 минут. Ремонт занял больше недели, но лучше дольше и надежнее.</p>
+                <div class="reviews-item__footer">
+                  <div class="stars">
+                    <div class="stars__item">
+                      <svg class="svg-icon icon-star stars__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#star"></use>
+                      </svg>
+                    </div>
+                    <div class="stars__item">
+                      <svg class="svg-icon icon-star stars__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#star"></use>
+                      </svg>
+                    </div>
+                    <div class="stars__item">
+                      <svg class="svg-icon icon-star stars__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#star"></use>
+                      </svg>
+                    </div>
+                    <div class="stars__item">
+                      <svg class="svg-icon icon-star stars__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#star"></use>
+                      </svg>
+                    </div>
+                    <div class="stars__item">
+                      <svg class="svg-icon icon-star stars__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#star"></use>
+                      </svg>
+                    </div>
+                  </div><span class="reviews-item__date">28.09.2020</span>
+                </div>
+              </div>
+              <div class="reviews-item">
+                <div class="reviews-item__header">
+                  <div class="reviews-item__img" style="background-image: url('images/content/reviews-author3.jpg');"></div>
+                  <p class="reviews-item__name">Марина</p>
+                </div>
+                <p class="reviews-item__desc">Обращалась к мастерам из этого центра дважды. Приходят молодые, вежливые, компетентные; быстро поняли проблему — нашли причину — устранили поломку. Всё быстро и качественно.</p>
+                <div class="reviews-item__footer">
+                  <div class="stars">
+                    <div class="stars__item">
+                      <svg class="svg-icon icon-star stars__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#star"></use>
+                      </svg>
+                    </div>
+                    <div class="stars__item">
+                      <svg class="svg-icon icon-star stars__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#star"></use>
+                      </svg>
+                    </div>
+                    <div class="stars__item">
+                      <svg class="svg-icon icon-star stars__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#star"></use>
+                      </svg>
+                    </div>
+                    <div class="stars__item">
+                      <svg class="svg-icon icon-star stars__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#star"></use>
+                      </svg>
+                    </div>
+                    <div class="stars__item">
+                      <svg class="svg-icon icon-star stars__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#star"></use>
+                      </svg>
+                    </div>
+                  </div><span class="reviews-item__date">28.09.2020</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="map" style="background-image: url('images/content/map.jpg');">
+          <div class="container">
+            <div class="offer-form">
+              <p class="offer-form__title">Оставьте заявку cейчас и получите скидку <span class="offer-form__title offer-form__title--color">20%</span> на ремонт техники</p>
+              <form class="offer-form__inner" action="" method="post">
+                <input class="offer-form__field" type="text" placeholder="Введите имя">
+                <input class="offer-form__field" type="tel" placeholder="Введите телефон">
+                <button class="btn offer-form__send" type="submit">Вызвать мастера</button>
+              </form>
+              <p class="offer-form__privacy">Нажимая на кнопку, вы даёте согласие на обработку <a href="#" class="offer-form__policy">персональных данных</a></p>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="container"><a class="logo footer__logo" href="#"><img class="logo__img" src="images/general/logo.png" alt=""></a>
+            <div class="contacts-prev footer-contacts">
+              <div class="contacts-prev__item footer-contacts__item">
+                <svg class="svg-icon icon-location contacts-prev__icon">
+                  <use xlink:href="images/svg/sprite/symbol/sprite.svg#location"></use>
+                </svg><span class="contacts-prev__title footer-contacts__title">ул. Хохрякова, 74, Екатеринбург</span>
+              </div>
+              <div class="contacts-prev__item footer-contacts__item">
+                <svg class="svg-icon icon-phone contacts-prev__icon">
+                  <use xlink:href="images/svg/sprite/symbol/sprite.svg#phone"></use>
+                </svg><a class="contacts-prev__title contacts-prev__link footer-contacts__title" href="tel:83432000164">8 (343) 2000-164</a>
+              </div>
+              <div class="contacts-prev__item footer-contacts__item">
+                <svg class="svg-icon icon-timetable contacts-prev__icon">
+                  <use xlink:href="images/svg/sprite/symbol/sprite.svg#timetable"></use>
+                </svg><span class="contacts-prev__title footer-contacts__title">08.00-23.00 без выходных</span>
+              </div>
+            </div>
+            <div class="privacy-links"><a class="privacy-links__item" href="#">Политика конфиденциальности</a><a class="privacy-links__item" href="#">Пользовательское соглашение</a></div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="js/vendor/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+    <noscript><link rel="stylesheet" href="css/styles.min.css"></noscript>
+  </body>
+</html>
